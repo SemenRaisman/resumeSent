@@ -2,31 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Semen, resume">
-    <meta name="description" content="Это сайт - резуме: Семёна">
-    <title>Семён</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="img/scale_1200.jpg" alt="Куница" width="250px">
-    <h1>Семён Райсман</h1>
-
-    <p>Lorem ipsum dolor <strong>sit amet consectetur</strong> adipisicing elit. <br>Dolor voluptas repellat, alias ab vero consequuntur ea odit? <br>Placeat, voluptatibus enim?</p>
-
-    <p>Lorem ipsum dolor <strong><em>sit amet, consectetur adipisicing</em></strong> elit. Illo, esse.</p>
-    <h3>Список социальных сетей:</h3>
-
-    <a href="">Instagram</a> | <a href="">Telegram</a> | <a href="">YouTube</a>
-    <h2>Мои Хобби</h2>
-    <ol>
+<main class="conteiner">
+    <header class="block1">
+        <img src="img/Voron.jpg" alt="Ворон" class="imgMain">
+                
+        <nav class="infotext">
+            <h1>Семён Райсман</h1>
+            <p>
+            Lorem ipsum  sit amet consectetur adipisicing elit. Dolor voluptas repellat, alias ab vero consequuntur ea odit? Placeat, voluptatibus enim?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, esse.Placeat, voluptatibus enim?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, esse.
+            </p>
+            <h3>Список социальных сетей:</h3>
+            <div class="btnAll">
+                
+                <a href="" class="btn">Instagram</a>  <a href="" class="btn">Telegram</a>  <a href="" class="btn">YouTube</a> 
+            </div>
+        </nav>
+    </header>
+<div class="card hobby">
+  <h2>Мои Хобби</h2>
+    <ol class="list">
         <li>Спорт</li>
         <li>Учёба</li>
         <li>Сон</li>
     </ol>
+</div>
 
-    <h2>Опыт работы:</h2>
-    <table border="1px">
+<div class="card exWord">
+  <h2>Опыт работы</h2>
+    <table class="tableFirst">
         <thead>
             <tr>
                 <th>Название</th>
@@ -40,79 +50,43 @@
                 <td>помощник мастера</td>
                 <td>2005</td>
             </tr>
-             <tr>
+                <tr>
                 <td>ФБС</td>
                 <td>Мастер</td>
                 <td>2015</td>
             </tr>
-             <tr>
+                <tr>
                 <td>ИП</td>
                 <td>Предпринематель</td>
                 <td>2020</td>
             </tr> 
         </tbody>
     </table>
-
-        <!-- <div>
-            <label for="text">Текст</label>
-            <input type="text" id="text" value="Текст по умолчанию">
-        </div>
+</div>
+<div class="card contacts">
     
-        <div>
-            <label for="message">Поле</label>
-              <br>
-            <textarea  id="message" cols="20" rows="5" placeholder="введите текст"></textarea>
-        </div>
-        <label for="pol">Ваш пол</label>
-        <select id="pol">
-            <option value="Мужчина" selected>Мужчина</option>
-            <option value="Женщина">Женщина</option>
-            <option value="Другое">Другое</option>
-        </select>
-        <div>
-            <label for="">Колличество</label>
-            <input type="radio" name="work"> 1
-            <input type="radio" name="work"> 2
-            <input type="radio" name="work"> 3
-            <input type="radio" name="work"> 4
-        </div>
-        <div>
-            <label for="">Любимая еда</label>
-            <input type="checkbox" name="food"> Картошка
-            <input type="checkbox" name="food"> Макароны
-            <input type="checkbox" name="food"> Салат
-            <input type="checkbox" name="food"> Борщ
-        </div>
-        <div>
-            <input type="submit"> 
-            <button type="submit">Отправить форму</button>
-        </div> -->
-
-        <h2>Связаться со мной</h2>
-        <form action="/"></form>
-        <div>
-            <label for="text">Ваше имя:</label>
-            <input type="text" id="text" placeholder="Введите имя">
-        </div>
-        <div>
-            <label for="email"> Ваш email:</label>
-            <input type="email" id="email" placeholder="Введите email">
-        </div>
-        <div>
-            <label for="textarea">Ваше сообщение</label>
-            <br>
-            <textarea name="" id="textarea" placeholder="Введите сообщение" cols="25" rows="5"></textarea>
-        </div>
-        <div>
-            <button type="submit">Отправить резуме</button>
-        </div>
-        
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+<div class="form-row">
+          <div class="form-group">
+                <label for="text">Ваше имя:</label>
+                <input type="text" id="text" placeholder="Введите имя">
+            </div>
+            <div class="form-group">
+                <label for="email"> Ваш email:</label>
+                <input type="email" id="email" placeholder="Введите email">
+            </div>
+</div>
+      
+            <div class="form-group">
+                <label for="textarea">Ваше сообщение</label>
+                <textarea name="" id="textarea" placeholder="Введите сообщение" cols="32" rows="4"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Отправить реюме" class="btn">
+            </div>
+        </form>
+  </div>
+</main>
 </body>
 </html>
