@@ -2,4 +2,4 @@
 
 # Результат вы можете посмотреть тут
 
-**[Моя первая работа в HTML @ CSS](https://semenraisman.github.io/resumeSent/)**
+** &#8595 &#128512 [Моя первая работа в HTML @ CSS](https://semenraisman.github.io/resumeSent/)** 
